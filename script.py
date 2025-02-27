@@ -15,7 +15,7 @@ st.write("Enter patient details to predict heart disease risk.")
 col1, col2 = st.columns(2)
 # User input fields
 with col1:
-    age = st.slider("Age", min_value=1, max_value=120, value=45)
+    age = st.number_input("Age", min_value=1, max_value=120, value=45)
     sex = st.selectbox("Sex", ["Male", "Female"])
     cp = st.selectbox("Chest Pain Type", ["Typical Angina", "Atypical Angina", "Non-anginal", "Asymptomatic"])
     rest_bp = st.number_input("Resting Blood Pressure", min_value=50, max_value=250, value=120)
