@@ -48,9 +48,11 @@ if st.button("Predict"):
     prediction = model.predict(input_data)[0]
     result = "Heart Disease Detected"
     if prediction == 1:
-        st.success(f"Prediction : {result}")
-    else:
         st.error(f"No Heart Disease Detected")
+    else:
+        st.success(f"Prediction : {result}")
+    
+        
 
 st.markdown(""" ---
     ⚙️ Build By **Deepak Kumar** \n
