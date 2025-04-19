@@ -46,8 +46,11 @@ input_data = np.array([
 # Make prediction
 if st.button("Predict"):
     prediction = model.predict(input_data)[0]
-    result = "Heart Disease Detected" if prediction == 1 else "No Heart Disease"
-    st.success(f"Prediction: {result}")
+    result = "Heart Disease Detected"
+    if prediction == 1:
+        st.success(f"Prediction : {result}")
+    else:
+        st.error(f"No Heart Disease Detected")
 
 st.markdown(""" ---
     ⚙️ Build By **Deepak Kumar** \n
