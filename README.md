@@ -10,7 +10,7 @@ This is an interactive **Streamlit web application** that predicts the likelihoo
 ## How to access the live ML app:
 Click one below link.
 
-Note if app is sleeping. Please click on `Yes, Get this app back up`
+Note: if app is sleeping. Please click on `Yes, Get this app back up`
 
 **Streamlit App**: https://project-3-heart-disease.streamlit.app/ 
 
