@@ -7,8 +7,9 @@ This project uses **machine learning** to analyze patient health data and predic
 This is an interactive **Streamlit web application** that predicts the likelihood of **heart disease** based on user-provided medical parameters using a trained machine learning model.
 
 
-## Live Demo (Access the model):
-Open the web browser and open the below link.
+## How to access the live ML app:
+Click one below link.
+Note if app is sleeping. Please click on "Yes, Get this app back up"
 
 **Streamlit App**: https://project-3-heart-disease.streamlit.app/ 
 
