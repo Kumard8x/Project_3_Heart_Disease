@@ -59,4 +59,4 @@ Enter the patient details and get the pridiction.
 
 ## Snapshot:
 
-![alt text](image.png)
+![alt text](app_snapshot.png)
